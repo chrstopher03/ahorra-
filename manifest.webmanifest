@@ -1,0 +1,13 @@
+{
+  "name": "Ahorra+ | Tu dinero, tus metas",
+  "short_name": "Ahorra+",
+  "description": "Organiza tus gastos, crea metas y ahorra con intención.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101326",
+  "theme_color": "#101326",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

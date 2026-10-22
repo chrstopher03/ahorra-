@@ -1,0 +1,16 @@
+# Ahorra+
+## Cómo probar
+1. Descomprime el ZIP.
+2. Abre `index.html` para una prueba local. El registro y los datos se guardan en el almacenamiento del navegador.
+3. Para instalar como PWA y usar el service worker, publica la carpeta en un hosting HTTPS (por ejemplo Netlify) o usa un servidor local.
+## Incluye
+- Registro e inicio de sesión local por correo y contraseña.
+- Resumen de balance, ingresos, gastos y metas.
+- Registro de movimientos, categorías, filtros y exportación CSV.
+- Presupuestos mensuales por categoría.
+- Metas de ahorro con aportes y alcancía animada estilo 3D.
+- Gráficos de seis meses, reportes, reto de ahorro de siete días.
+- Exportar/restaurar copia JSON, perfil y selector de moneda.
+- Diseño adaptable a móvil y escritorio, manifiesto PWA y service worker.
+## Importante
+Esta es una aplicación personal de demostración con almacenamiento local. No conecta con bancos y no ofrece autenticación segura de producción: el correo y la contraseña se almacenan localmente para simular el inicio de sesión. No uses una contraseña importante ni datos sensibles. Para cuentas seguras, sincronización entre dispositivos o conexión bancaria hace falta un backend autenticado y auditado.
