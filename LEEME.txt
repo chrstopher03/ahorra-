@@ -1,16 +1,11 @@
-# Ahorra+
-## Cómo probar
-1. Descomprime el ZIP.
-2. Abre `index.html` para una prueba local. El registro y los datos se guardan en el almacenamiento del navegador.
-3. Para instalar como PWA y usar el service worker, publica la carpeta en un hosting HTTPS (por ejemplo Netlify) o usa un servidor local.
-## Incluye
-- Registro e inicio de sesión local por correo y contraseña.
-- Resumen de balance, ingresos, gastos y metas.
-- Registro de movimientos, categorías, filtros y exportación CSV.
-- Presupuestos mensuales por categoría.
-- Metas de ahorro con aportes y alcancía animada estilo 3D.
-- Gráficos de seis meses, reportes, reto de ahorro de siete días.
-- Exportar/restaurar copia JSON, perfil y selector de moneda.
-- Diseño adaptable a móvil y escritorio, manifiesto PWA y service worker.
-## Importante
-Esta es una aplicación personal de demostración con almacenamiento local. No conecta con bancos y no ofrece autenticación segura de producción: el correo y la contraseña se almacenan localmente para simular el inicio de sesión. No uses una contraseña importante ni datos sensibles. Para cuentas seguras, sincronización entre dispositivos o conexión bancaria hace falta un backend autenticado y auditado.
+AHORRA+ 2.0 — INSTALACIÓN
+
+Incluye index.html, manifest.webmanifest, sw.js e icon.svg.
+
+IMPORTANTE: para instalar como PWA, publica TODOS estos archivos juntos en un hosting HTTPS (por ejemplo, tu propio hosting estático) o ejecútalos en localhost. Abrir index.html directamente con doble clic permite probar la web, pero NO habilita la instalación PWA ni el service worker.
+
+Chrome/Edge en computadora: abre la URL HTTPS y usa el icono Instalar de la barra o Menú > Instalar Ahorra+.
+Android: abre la URL en Chrome > menú ⋮ > Instalar aplicación / Añadir a pantalla de inicio.
+iPhone/iPad: abre la URL en Safari > Compartir > Añadir a pantalla de inicio.
+
+Los datos y las cuentas de esta versión se guardan localmente en ese navegador. No hay servidor de cuentas ni sincronización entre dispositivos. No uses una contraseña que utilices en otros servicios; para autenticación real se requiere un backend seguro. Los importes son los que tú registres, no están conectados a un banco.
