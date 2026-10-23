@@ -9,3 +9,10 @@ Android: abre la URL en Chrome > menú ⋮ > Instalar aplicación / Añadir a pa
 iPhone/iPad: abre la URL en Safari > Compartir > Añadir a pantalla de inicio.
 
 Los datos y las cuentas de esta versión se guardan localmente en ese navegador. No hay servidor de cuentas ni sincronización entre dispositivos. No uses una contraseña que utilices en otros servicios; para autenticación real se requiere un backend seguro. Los importes son los que tú registres, no están conectados a un banco.
+
+
+NUEVO EN ESTA ACTUALIZACIÓN
+- Rediseño visual del panel principal con banner ilustrado, accesos rápidos y tarjetas con mejor jerarquía.
+- Nueva sección Pagos recurrentes: registra cuentas mensuales, importe, categoría y día de vencimiento.
+- Vista de próximos pagos, estimado mensual/anual y botón para registrar el pago en Movimientos.
+- El botón Marcar pagado añade un gasto real a tu historial local; no realiza el pago por ti ni envía notificaciones.
