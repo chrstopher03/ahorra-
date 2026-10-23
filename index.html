@@ -61,6 +61,20 @@ body{background:radial-gradient(ellipse at 3% 0%,#30386c88 0,transparent 31%),ra
 @media(max-width:900px){.ultra-grid{grid-template-columns:1fr}.account-list{grid-template-columns:1fr 1fr}.badge-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:560px){.account-list{grid-template-columns:1fr}.badge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ultra-grid{gap:12px}.card{padding:17px;border-radius:19px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+/* Ajuste de inicio de sesión en pantallas móviles: más espacio inferior y scroll seguro */
+@media (max-width:760px){
+  .auth-screen{min-height:100vh;min-height:100svh;padding:26px 16px calc(42px + env(safe-area-inset-bottom));align-items:center;overflow-x:hidden;overflow-y:auto;}
+  .auth-card{width:min(440px,100%);padding:27px 22px;margin:auto 0;}
+  .auth-card form{gap:13px;margin:18px 0;}
+  .auth-card .field input{padding:13px;}
+  .auth-card .notice{margin-top:18px;}
+}
+@media (max-width:760px) and (max-height:760px){
+  .auth-screen{align-items:start;}
+  .auth-card{margin:0 auto;}
+}
+
 </style>
 </head>
 <body>
