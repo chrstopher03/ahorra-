@@ -1,14 +1,8 @@
-AHORRA+ — VERSIÓN MEJORADA
+AHORRA+ ULTRA — ARCHIVOS DE LA APLICACIÓN
 
-Incluye: inicio de sesión y registro local, panel visual, movimientos, presupuestos, metas, alcancía animada, calendario financiero, pagos recurrentes, lista de deudas y abonos, simulador de ahorro, reportes y copias de seguridad.
+Incluye: panel visual renovado, ingresos y gastos, presupuestos, metas, alcancía animada, pagos recurrentes, deudas, simulador, calendario, niveles y medallas, previsión estimada, bolsillos/cuentas virtuales, tema claro/oscuro, exportación CSV y copias JSON, informe imprimible/guardar como PDF, y soporte PWA.
 
-PARA PROBAR
-1. Extrae todos los archivos del ZIP en la misma carpeta.
-2. Abre index.html en Chrome o Edge. Las funciones normales funcionan localmente.
-3. Para instalar como PWA, publica la carpeta completa en un hosting HTTPS y abre la dirección en Chrome/Edge.
+PRUEBA RÁPIDA: extrae todo el ZIP y abre index.html con Chrome o Edge.
+INSTALACIÓN PWA: publica TODOS los archivos de esta carpeta juntos en un alojamiento HTTPS; luego usa la opción Instalar aplicación del navegador.
 
-IMPORTANTE
-- Las cuentas y los datos se guardan en el almacenamiento local de este navegador/dispositivo. No hay sincronización ni autenticación segura de servidor.
-- No hay conexión con bancos ni pagos automáticos. Los abonos y pagos son registros manuales.
-- El simulador es una estimación matemática, no una garantía de rendimiento financiero.
-- Haz copias de seguridad desde Ajustes para evitar perder los datos si limpias el navegador.
+IMPORTANTE: los datos y el acceso se guardan localmente en el navegador. No existe sincronización en la nube, conexión bancaria, pago automático ni autenticación segura de servidor. Las cuentas son bolsillos virtuales de organización. Las proyecciones son estimaciones basadas en los datos que introduzcas, no garantías. Haz copias de seguridad periódicas.
