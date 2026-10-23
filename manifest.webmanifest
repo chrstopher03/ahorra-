@@ -1,14 +1,12 @@
 {
-  "id": "./",
-  "name": "Ahorra+ · Tu dinero, tus metas",
+  "name": "Ahorra+ | Tu dinero, tus metas",
   "short_name": "Ahorra+",
-  "description": "Organiza tus gastos, ahorra para tus metas y mejora tus hábitos financieros.",
-  "lang": "es",
-  "start_url": "./",
+  "description": "Organiza tus movimientos, presupuestos, metas, pagos recurrentes y deudas.",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#101326",
-  "theme_color": "#101326",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
   "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
 }
