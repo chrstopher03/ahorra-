@@ -1,8 +1,40 @@
-AHORRA+ ULTRA — ARCHIVOS DE LA APLICACIÓN
+AHORRA+ STUDIO + MIMI AI
+========================
 
-Incluye: panel visual renovado, ingresos y gastos, presupuestos, metas, alcancía animada, pagos recurrentes, deudas, simulador, calendario, niveles y medallas, previsión estimada, bolsillos/cuentas virtuales, tema claro/oscuro, exportación CSV y copias JSON, informe imprimible/guardar como PDF, y soporte PWA.
+CONTENIDO DEL ZIP
+- index.html: la aplicación Ahorra+ con la mascota Mimi rediseñada.
+- server.js: servidor local y puente privado para conectar Mimi a una IA.
+- package.json: comando para iniciar el servidor (no necesita paquetes npm externos).
+- .env.example: plantilla de configuración de la clave de API.
+- iniciar_ahorra_plus.bat: acceso rápido para Windows.
 
-PRUEBA RÁPIDA: extrae todo el ZIP y abre index.html con Chrome o Edge.
-INSTALACIÓN PWA: publica TODOS los archivos de esta carpeta juntos en un alojamiento HTTPS; luego usa la opción Instalar aplicación del navegador.
+FORMA 1: ABRIR RÁPIDO (SIN IA COMPLETA)
+1. Extrae todo el ZIP a una carpeta.
+2. Abre index.html con Chrome.
+3. La aplicación y las funciones locales pueden usarse sin configurar la IA.
+4. Mimi tendrá respuestas integradas limitadas, voz del navegador si está disponible y búsqueda web manual.
 
-IMPORTANTE: los datos y el acceso se guardan localmente en el navegador. No existe sincronización en la nube, conexión bancaria, pago automático ni autenticación segura de servidor. Las cuentas son bolsillos virtuales de organización. Las proyecciones son estimaciones basadas en los datos que introduzcas, no garantías. Haz copias de seguridad periódicas.
+FORMA 2: ACTIVAR RESPUESTAS DE IA MÁS AMPLIAS
+Requisitos: Node.js 18 o superior, conexión a Internet y una clave válida de API.
+1. Extrae el ZIP a una carpeta.
+2. Duplica .env.example y nombra la copia .env (en Windows activa la vista de extensiones si hace falta).
+3. Abre .env con un editor de texto y reemplaza pega_tu_clave_aqui por tu clave privada. No compartas ese archivo.
+4. Ejecuta iniciar_ahorra_plus.bat o abre una terminal en esa carpeta y ejecuta: node server.js
+5. Abre en Chrome: http://127.0.0.1:4173
+6. Abre Mimi y haz una pregunta. Si la IA se conecta, su estado dirá “IA conectada”.
+
+PRIVACIDAD Y COSTOS
+- La clave se guarda en .env y el servidor no la entrega al navegador.
+- Al usar la IA, la pregunta y un resumen de datos financieros relevantes que la app envía para personalizar la respuesta se transmiten al proveedor de IA. No actives la integración si no quieres compartir esos datos.
+- El proveedor de IA puede cobrar por uso según tu cuenta y su tarifa. La aplicación no incluye una clave ni crédito de API.
+- Los datos de la aplicación siguen guardándose localmente en el navegador. Este servidor no crea cuentas en la nube ni sincroniza entre dispositivos.
+- No subas .env ni la clave a repositorios o chats.
+
+MIMI
+- Mascota 3D simulada con CSS, animación de flotación y brillo.
+- Arrástrala desde el personaje para cambiar su posición; intenta recordar dónde la dejaste.
+- Conversación con historial, botones rápidos, dictado si el navegador lo soporta y lectura en voz alta.
+- Sin la API configurada, el asistente funciona en modo local con respuestas limitadas.
+
+NOTA
+Este paquete no puede garantizar que todos los navegadores o proveedores de voz funcionen igual. Si una función falla, prueba Chrome actualizado. La IA necesita Internet y una clave válida.

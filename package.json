@@ -1,0 +1,8 @@
+{
+  "name": "ahorra-plus-mimi-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ahorra+ con asistente Mimi y conexión opcional a IA mediante servidor local",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
