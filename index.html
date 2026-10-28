@@ -230,6 +230,75 @@ body:before{content:"";position:fixed;inset:-20%;z-index:-1;pointer-events:none;
 @media(max-width:390px){#petAssistant .pet-bubble{width:calc(100vw - 18px)}}
 
 </style>
+
+<style id="ahorraPlusReimagined">
+/* REIMAGINED UI — identidad más luminosa, profundidad y movimiento suave */
+:root{--bg:#080f20;--panel:#111d33;--panel2:#1c2b46;--line:#30445e;--mint:#8affd5;--blue:#8da6ff;--pink:#ff9bd0;--gold:#ffdc8b;--shadow:0 24px 70px #02071380}
+body{background:radial-gradient(ellipse at 12% 5%,#394a8d70,transparent 30%),radial-gradient(ellipse at 88% 34%,#087e7770,transparent 28%),linear-gradient(145deg,#080f20 0%,#101a30 48%,#10142a 100%);background-attachment:fixed}
+body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.16;background-image:radial-gradient(#b8d4ff 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(180deg,#000,transparent 80%)}
+.sidebar{background:linear-gradient(180deg,#0a1427f5,#0b1222f2);border-right:1px solid #9bbcff20;box-shadow:18px 0 55px #02061130}
+.brandmark{background:linear-gradient(135deg,#9affdc,#8bbcff 55%,#d4a1ff);box-shadow:0 0 0 7px #8affd510,0 12px 32px #73e9d755}
+.nav button{border-radius:15px;padding:13px 14px}
+.nav button.active{background:linear-gradient(110deg,#8affd526,#8da6ff22);box-shadow:inset 0 0 0 1px #8affd52c,0 8px 24px #030b1b25}
+.main{max-width:1720px;padding-top:30px}
+.topbar{border-bottom:1px solid #b9ceff18;padding-bottom:23px;margin-bottom:24px}
+.topbar h1{background:linear-gradient(100deg,#fff 15%,#d8e5ff 62%,#9affdc);-webkit-background-clip:text;background-clip:text;color:transparent}
+.card{background:linear-gradient(145deg,#172640ed,#101a2eee);border:1px solid #b9ceff1c;border-radius:25px;box-shadow:0 18px 50px #02071335;backdrop-filter:blur(18px)}
+.card:hover{transform:translateY(-3px);border-color:#8affd54d;box-shadow:0 25px 65px #02071365,0 0 0 1px #8affd40b}
+.stat{min-height:145px}
+.stat-icon{border:1px solid #b7caff20;box-shadow:inset 0 1px 0 #fff1}
+.dashboard-banner{border-radius:30px;border:1px solid #a8c3ff36;box-shadow:0 30px 80px #03081670;background:radial-gradient(ellipse at 76% 38%,#8affd52c,transparent 25%),radial-gradient(ellipse at 88% 85%,#a18bff30,transparent 38%),linear-gradient(115deg,#243d62,#202d52 48%,#171f3c);min-height:310px}
+.dashboard-banner:before{opacity:.23;background-size:24px 24px}
+.banner-copy h2{font-size:clamp(31px,3.8vw,48px);text-wrap:balance}
+.banner-copy h2 em{color:#9affdc;text-shadow:0 0 28px #8affd53d}
+.banner-tag{display:inline-flex;padding:7px 10px;border:1px solid #8affd53a;border-radius:999px;background:#8affd510}
+.banner-crystal{animation:crystalFloat 3.6s ease-in-out infinite;filter:drop-shadow(0 0 22px #8affd599) drop-shadow(0 20px 28px #0008)}
+.banner-ring{border-color:#b5c5ff8c;box-shadow:0 0 55px #8da6ff2c,inset 0 0 35px #8da6ff1c}
+.quick-action{border-radius:19px;background:linear-gradient(145deg,#1b2b46,#111e34);border-color:#b9ceff20;min-height:84px}
+.quick-action:hover{transform:translateY(-5px) scale(1.012);border-color:#8affd568;box-shadow:0 16px 35px #02071355}
+.quick-symbol{border:1px solid #ffffff12;box-shadow:inset 0 1px 0 #ffffff18}
+.primary{background:linear-gradient(115deg,#9affdc,#79e8ed 55%,#a9b8ff);box-shadow:0 10px 28px #72f2c42c;color:#07182a}
+.primary:hover{box-shadow:0 13px 34px #72f2c45a}
+.secondary{border:1px solid #b9ceff24;background:linear-gradient(145deg,#243451,#1a2942)}
+.piggy-card{background:radial-gradient(circle at 70% 32%,#817aff50,transparent 42%),linear-gradient(145deg,#243656,#111c32)}
+.piggy-stage{min-height:220px}
+.piggy{filter:drop-shadow(0 18px 25px #03071355)}
+.progress{background:#ffffff15;height:9px}
+.progress span{background:linear-gradient(90deg,#8affd5,#79dfff,#b19aff,#ff9bd0)}
+.section-title h2{font-size:clamp(24px,3vw,32px)}
+.field input,.field select{background:#0c172a;border-color:#30445e;border-radius:14px}
+.field input:focus,.field select:focus{border-color:#8affd5;box-shadow:0 0 0 4px #8affd51b}
+.modal{background:linear-gradient(145deg,#192944,#10192d);border-color:#9ab9ff3b}
+.toast{border:1px solid #8affd555;background:#eafff7;color:#09251f}
+#petAssistant{pointer-events:none}
+#petAssistant .pet-launch,#petAssistant .pet-bubble{pointer-events:auto}
+#petAssistant .pet-launch{filter:drop-shadow(0 0 20px #73f5c255) drop-shadow(0 15px 25px #0009);transition:transform .25s,filter .25s}
+#petAssistant .pet-launch:hover{transform:translateY(-7px) scale(1.045);filter:drop-shadow(0 0 28px #73f5c299) drop-shadow(0 15px 25px #0009)}
+#petAssistant .pet-label{background:linear-gradient(100deg,#0c443a,#17334b);border-color:#8affd577;box-shadow:0 8px 24px #0005}
+#petAssistant .pet-bubble{border:1px solid #9effdd40!important;background:linear-gradient(145deg,#172944f7,#0c172bf7)!important;border-radius:23px!important}
+#petAssistant .pet-inputrow input{background:#0b172a!important;border:1px solid #405573!important;border-radius:13px!important;color:#fff!important}
+#petAssistant .pet-send{background:linear-gradient(135deg,#9affdc,#79dfff)!important;color:#09212a!important;border-radius:12px!important}
+#petAssistant .pet-quick button,#petAssistant .pet-toolbar button{border-radius:11px!important;transition:transform .2s,border-color .2s,background .2s}
+#petAssistant .pet-quick button:hover,#petAssistant .pet-toolbar button:hover{transform:translateY(-2px);border-color:#8affd577!important}
+#petAssistant .pet-chatline{border-radius:13px}
+.auth-screen{background:radial-gradient(circle at 15% 15%,#4653a577,transparent 34%),radial-gradient(circle at 90% 80%,#087e7770,transparent 32%),#080f20}
+.auth-card{background:linear-gradient(145deg,#1b2a46f5,#111a2ef7);border:1px solid #b9ceff25;box-shadow:0 35px 100px #0007}
+.auth-card:before{height:4px}
+.welcome{background:radial-gradient(circle at 50% 23%,#4555a4 0,transparent 34%),radial-gradient(circle at 10% 90%,#087e7777 0,transparent 34%),#080f20}
+.welcome .btn{box-shadow:0 14px 35px #72f2c42b}
+.tx,.goal-item,.budget-item,.account-card,.recurring-item{border-color:#b9ceff18}
+@keyframes auraPulse{0%,100%{box-shadow:0 0 0 0 #8affd500}50%{box-shadow:0 0 0 8px #8affd50b}}
+.brandmark{animation:brandGlow 3.4s ease-in-out infinite,auraPulse 3s ease-in-out infinite}
+@media(max-width:760px){
+ .dashboard-banner{border-radius:24px;padding:23px 19px;min-height:270px}
+ .banner-art{opacity:.32;right:-32px;bottom:-20px}
+ .card:hover{transform:none}
+ .quick-action{min-height:76px}
+ #petAssistant .pet-bubble{border-radius:20px!important}
+}
+@media(prefers-reduced-motion:reduce){body:after{display:none}.brandmark{animation:none!important}}
+</style>
+
 </head>
 <body>
 <div id="welcome" class="welcome"><span class="welcome-spark s1"></span><span class="welcome-spark s2"></span><span class="welcome-spark s3"></span><div class="welcome-inner"><div class="welcome-logo">✦ ahorra<span style="color:var(--mint)">+</span></div><div class="welcome-scene"><span class="float-coin c1">◉</span><span class="float-coin c2">●</span><span class="float-coin c3">◉</span><div class="welcome-pig"><div class="ear left"></div><div class="ear right"></div><div class="piggy-body"><div class="coin-slot"></div></div><div class="eye"></div><div class="snout"><i class="nostril one"></i><i class="nostril two"></i></div><div class="leg l"></div><div class="leg r"></div></div></div><div class="eyebrow">PEQUEÑOS PASOS, GRANDES LOGROS</div><h1>Tu futuro empieza<br>con un pequeño ahorro.</h1><p>Organiza tu dinero, alcanza tus metas y celebra cada paso. Tu camino financiero comienza hoy.</p><button class="btn primary" id="startJourney">Comenzar mi camino&nbsp; →</button><div class="muted small" style="margin-top:18px">Tu espacio personal para crecer con tranquilidad ✨</div></div></div>
@@ -687,6 +756,54 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
    window.addEventListener('online',()=>{if(typeof toast==='function')toast('Conexión recuperada. Comprueba que tus datos estén guardados.');});
    window.addEventListener('offline',()=>{if(typeof toast==='function')toast('Estás sin conexión. Tus datos locales siguen disponibles en este navegador.');});
  }
+})();
+</script>
+
+
+<script id="ahorraPlusInteractionUpgrade">
+(()=> {
+ const $=(q,root=document)=>root.querySelector(q);
+ // Polished tap feedback without changing existing application actions.
+ document.addEventListener('click',e=>{
+   const b=e.target.closest('button');
+   if(!b||b.disabled||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+   const r=b.getBoundingClientRect(),size=Math.max(r.width,r.height)*.72;
+   const ripple=document.createElement('span');ripple.className='ripple';
+   ripple.style.width=ripple.style.height=size+'px';
+   ripple.style.left=(e.clientX-r.left-size/2)+'px';
+   ripple.style.top=(e.clientY-r.top-size/2)+'px';
+   b.appendChild(ripple);setTimeout(()=>ripple.remove(),650);
+ },{passive:true});
+ // Mimi's extra help buttons provide useful, local guidance and speech when available.
+ const root=$('#petAssistant'); if(!root)return;
+ const message=$('#petMessage',root);
+ const speakText=text=>{
+   if(!('speechSynthesis' in window)){if(typeof window.toast==='function')window.toast('La voz no está disponible en este navegador.');return}
+   speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='es-NI';u.rate=.96;u.pitch=1.08;speechSynthesis.speak(u);
+ };
+ root.addEventListener('click',e=>{
+   const btn=e.target.closest('[data-pet]');if(!btn)return;
+   const type=btn.getAttribute('data-pet');
+   const answers={
+    balance:'Vamos a revisar tu dinero con calma: compara tus ingresos con tus gastos y reserva primero una cantidad pequeña para tu meta. Tus cifras se muestran dentro del panel de Ahorra+.',
+    goals:'¡Vamos con tus metas! Elige una meta concreta, ponle un monto y una fecha realista. Divide lo que falta entre las semanas disponibles para descubrir cuánto apartar.',
+    tips:'Consejo de Mimi: antes de comprar algo que no necesitas, espera 24 horas. Si todavía lo quieres y cabe en tu presupuesto, decide sin culpa.',
+    voice:'¡Hola! Soy Mimi, tu compañera de ahorro. Puedo orientarte con metas, presupuestos y hábitos. Escribe una pregunta y te ayudo paso a paso.'
+   };
+   if(type==='voice'){speakText(answers.voice);if(message)message.textContent=answers.voice}
+   else if(message)message.textContent=answers[type]||'Estoy aquí para ayudarte a organizar tus metas.';
+ });
+ const mic=$('#mimiMic',root);
+ if(mic)mic.addEventListener('click',()=>{
+   const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+   if(!SR){if(typeof window.toast==='function')window.toast('El dictado por voz funciona mejor en Chrome.');return}
+   const rec=new SR();rec.lang='es-NI';rec.interimResults=false;rec.maxAlternatives=1;
+   mic.disabled=true;mic.textContent='🎙️ Escuchando…';
+   rec.onresult=e=>{const inp=$('#petQuestion',root);if(inp){inp.value=e.results[0][0].transcript;inp.focus()}};
+   rec.onerror=()=>{if(typeof window.toast==='function')window.toast('No pude escuchar. Revisa el permiso del micrófono.')};
+   rec.onend=()=>{mic.disabled=false;mic.textContent='🎙️ Dictar'};
+   try{rec.start()}catch{mic.disabled=false;mic.textContent='🎙️ Dictar'}
+ });
 })();
 </script>
 
